@@ -4,9 +4,10 @@
 #include "Renderer.hpp"
 
 class Visor {
-	NObject * nobject;
-	NCamera * ncamera;
-	void * visorcontext;
+	public:
+	NObject * object;
+	NCamera * camera;
+	void * context;
 	Renderer * renderer;
 	void render();
 };

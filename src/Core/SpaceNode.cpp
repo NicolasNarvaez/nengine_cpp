@@ -3,5 +3,8 @@
 
 RenderQuery * SpaceNode::queryRender(Visor * visor, VisorContext * context, bool generate_context) {
 
-	return 0;
+	RenderQuery * query = new RenderQuery();
+	query->objects = this->tree->allObjects();
+	query->camera = visor->camera;
+	return query;
 }

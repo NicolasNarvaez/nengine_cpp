@@ -12,7 +12,7 @@ modular enough to add optimizations later (and rewritte a ton of this).
 
 The "primary task":
 nd engine: graphics/physics 
-graphics: correct n-d rendering (texture superposition), RTX
+graphics: correct n-d rendering (volumetric rendering && superposition), vol-RTX
 physics: base solids, constraints
 
 The "primary requirements":

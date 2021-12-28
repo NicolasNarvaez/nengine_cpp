@@ -6,6 +6,7 @@ class VisorContext {
 };
 
 class RenderQuery {
+	public:
 	// just intersected objects by now
 	NObject * objects;
 	NCamera * camera;
