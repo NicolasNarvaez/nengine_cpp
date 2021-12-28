@@ -23,3 +23,6 @@ ND first (optimizations could reach the hot-reload, its ok), including shadding
 There will be no more "tasks" or "issues" whatsoever, until the primary work is 
 done.
 
+(I recognize there is much to learn, for the rest of life, so please bear with 
+my ignorance.)
+
