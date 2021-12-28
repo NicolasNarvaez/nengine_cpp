@@ -1,6 +1,7 @@
 #include "Renderer.hpp"
+#include "SpaceNode.hpp"
 
-void render(NObject * objects, NCamera * camera) {
+void Renderer::render(RenderQuery * query) {
 	// for( object in NObject)
 		// compute object MVP
 		// render object

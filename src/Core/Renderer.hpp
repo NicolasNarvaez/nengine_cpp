@@ -1,7 +1,8 @@
 #pragma once
 #include "NObject.hpp"
+class RenderQuery;
 
 class Renderer {
-	void render(NObject * objects, NCamera * camera) {
-	}
+	public:
+	void render(RenderQuery * query);
 };

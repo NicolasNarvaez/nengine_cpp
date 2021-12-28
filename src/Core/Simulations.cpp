@@ -1,7 +1,7 @@
 #include "Simulations.hpp"
 #include "Universes.hpp"
 
-Simulation * generic() {
+Simulation * Simulations::generic() {
 	Simulation * simulation = new Simulation();
 
 	// create view frame

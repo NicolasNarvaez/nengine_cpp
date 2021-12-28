@@ -3,6 +3,6 @@
 
 void Visor::render() {
 	RenderQuery * query = this->nobject->nspace->queryRender(this);
-	this->renderer(query);
+	this->renderer->render(query);
 	// send to render every object
 };

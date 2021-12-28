@@ -1,9 +1,7 @@
 // small, temporary helper ...
 // need to check best alternatives
 //
-
-#pragma once
-
+#include "NAlgebra.hpp"
 
 namespace nalgebra {
 

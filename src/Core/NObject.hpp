@@ -1,6 +1,4 @@
 #pragma once 
-#include "nalgebra.cpp"
-using namespace nalgebra;
 class SpaceNode;
 
 class NObject {

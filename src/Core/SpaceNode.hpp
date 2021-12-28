@@ -7,9 +7,12 @@ class VisorContext {
 
 class RenderQuery {
 	// just intersected objects by now
+	NObject * objects;
+	NCamera * camera;
 };
 
 class SpaceNode {
+	public:
 	SpaceTree * tree;
 	NObject * objects;
 	SpaceNode * parent;
