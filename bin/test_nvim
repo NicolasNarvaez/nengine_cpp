@@ -4,18 +4,18 @@ cd src/
 
 echo "start of tests"
 
-# glslc shaders/shader.vert -o shaders/vert.spv
-# vert_compiled=$?
-# glslc shaders/shader.frag -o shaders/frag.spv
-# frag_compiled=$?
-#
-# if [[ vert_compiled -ne 0 ]] || [[ frag_compiled -ne 0 ]]
-# then
-               # echo "error en compilacion"
-               # exit 1
-# fi
-#
-# echo "compiled shaders correctly"
+glslc shaders/shader.vert -o shaders/vert.spv
+vert_compiled=$?
+glslc shaders/shader.frag -o shaders/frag.spv
+frag_compiled=$?
+
+if [[ vert_compiled -ne 0 ]] || [[ frag_compiled -ne 0 ]]
+then
+			   echo "error en compilacion"
+			   exit 1
+fi
+
+echo "compiled shaders correctly"
 
 make test
 echo "end of tests"
