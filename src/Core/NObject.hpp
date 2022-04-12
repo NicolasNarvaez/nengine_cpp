@@ -3,13 +3,13 @@ class SpaceNode;
 
 class NObject {
 	public:
-	int dim = 4;
-	float * pos;
-	float * rot;
-	float * bbox;
+          int dim = 4;
+          float *pos;
+          float *rot;
+          float *bbox;
 
-	SpaceNode * nspace;
-	NObject();
+          SpaceNode *nspace;
+          NObject();
 };
 
 class NCamera {
