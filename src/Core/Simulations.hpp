@@ -1,6 +1,6 @@
 #pragma once
 #include "Simulation.hpp"
 
-namespace Simulations {
+namespace NEngine {
 	Simulation * generic();
 }

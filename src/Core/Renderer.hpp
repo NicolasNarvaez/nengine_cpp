@@ -5,4 +5,5 @@ class RenderQuery;
 class Renderer {
 	public:
 	void render(RenderQuery * query);
+	void setupVulkan();
 };

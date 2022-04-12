@@ -19,7 +19,7 @@ int main(int argc, char * argv[]) {
 		// cout << asd[i] << endl;
 	// }
 	
-	Simulation * simulation = Simulations::generic();
+	Simulation * simulation = NEngine::generic();
 
 	simulation->start();
 
