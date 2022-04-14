@@ -5,6 +5,8 @@
 #include "SpaceTree.hpp"
 #include "Visor.hpp"
 
+namespace NEngine {
+
 class VisorContext {
 };
 
@@ -27,3 +29,4 @@ class SpaceNode {
 	std::vector<NObject*> * allObjects();
 };
 
+}

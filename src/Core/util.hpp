@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-namespace nengine {
+namespace NEngine {
 	namespace util {
 
 		namespace vector {

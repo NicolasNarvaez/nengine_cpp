@@ -3,6 +3,8 @@
 #include "NObject.hpp"
 #include "Renderer.hpp"
 
+namespace NEngine {
+
 class Visor {
 	public:
 	NObject * object;
@@ -11,3 +13,5 @@ class Visor {
 	Renderer * renderer;
 	void render();
 };
+
+}

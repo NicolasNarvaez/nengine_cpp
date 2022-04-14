@@ -3,7 +3,8 @@
 #include "SpaceNode.hpp"
 #include "util.hpp"
 
-using namespace nengine;
+
+namespace NEngine {
 
 // Constructs rendering query from visor definition/spatial graphic features
 RenderQuery * SpaceNode::queryRender(Visor * visor, VisorContext * context, bool generate_context) {
@@ -23,4 +24,6 @@ std::vector<NObject*> * SpaceNode::allObjects() {
 	// std::transform(this->childs->begin(), this->childs->end(), std::back_inserter(childs_objects), [](SpaceNode * child) {return child->objects;});
 
 	return util::vector::merge<NObject*>(this->objects, childs_objects);
+}
+
 }
