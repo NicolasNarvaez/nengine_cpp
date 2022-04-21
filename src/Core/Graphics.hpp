@@ -13,20 +13,26 @@ class GraphicsCanvas {
 
 // Manages graphics contet instance and surface
 class GraphicsContext {
-	
-	GraphicsCanvas * canvas;
+	NENGINE_GRAPHICS_CONTEXT vendor;
 	void * context_instance;
+	GraphicsCanvas * canvas;
 
-	NENGINE_GRAPHICS_CONTEXT type;
-
-	void present();
+	virtual void setup();
+	virtual void present();
 };
 
 class VulkanCanvas {
 
 };
 // 
-class VulkanContext {
+class VulkanContext : public GraphicsContext {
+	public: 
+	void setup();
+	void present();
+
+	private:
+	void createInstance();
+	// void createLogicalDevice();
 };
 
 
