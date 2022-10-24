@@ -1,4 +1,5 @@
 #pragma once 
+namespace NEngine {
 class SpaceNode;
 
 class NObject {
@@ -16,3 +17,4 @@ class NCamera {
 	float dim;
 	float * amplitude; 
 };
+}

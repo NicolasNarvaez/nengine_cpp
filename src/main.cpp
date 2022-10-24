@@ -14,12 +14,13 @@ int main(int argc, char * argv[]) {
 
 	cout << "Hello, World!" << endl; // This prints "Hello, World!"
 	cout << "MVPMatrix" << endl; // This prints "Hello, World!"
+	cout << "MVPMatrix" << endl; // This prints "Hello, World!"
 	// for(int i = 0; i < 10; i++) {
 		// print_array(asd, 10);
 		// cout << asd[i] << endl;
 	// }
 	
-	Simulation * simulation = NEngine::generic();
+	NEngine::Simulation * simulation = NEngine::generic();
 
 	simulation->start();
 

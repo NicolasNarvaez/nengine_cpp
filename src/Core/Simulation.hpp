@@ -3,6 +3,8 @@
 #include "SimulationFrame.hpp"
 #include "SpaceTree.hpp"
 
+namespace NEngine {
+
 class Simulation {
 	public:
 	std::vector<SimulationFrame*> frames;
@@ -26,3 +28,5 @@ class Simulation {
 	}
 
 };
+
+}

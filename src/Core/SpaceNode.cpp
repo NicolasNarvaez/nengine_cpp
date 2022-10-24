@@ -3,11 +3,9 @@
 #include "SpaceNode.hpp"
 #include "util.hpp"
 
-
 namespace NEngine {
 
-// Constructs rendering query from visor definition/spatial graphic features
-RenderQuery * SpaceNode::queryRender(Visor * visor, VisorContext * context, bool generate_context) {
+RenderQuery * SpaceNode::queryRender(Visor * visor, void * context, bool generate_context) {
 	RenderQuery * query = new RenderQuery();
 	query->objects = this->tree->allObjects();
 	query->camera = visor->camera;

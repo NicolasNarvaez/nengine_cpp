@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
 #include "NObject.hpp"
+
+namespace NEngine {
 class SpaceNode;
 
 class SpaceTree {
@@ -9,3 +11,4 @@ class SpaceTree {
 
 	std::vector<NObject*>* allObjects();
 };
+}

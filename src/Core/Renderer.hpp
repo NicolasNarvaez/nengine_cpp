@@ -1,50 +1,16 @@
 #pragma once
+#include "LLRenderer.hpp"
 #include "NObject.hpp"
-#include "Scene.hpp"
-#include "Graphics.hpp"
-#include "Scene.hpp"
+
+#ifdef NENGINE_LLRENDERER_VENDOR_VULKAN
+#include "VulkanLLRenderer.hpp"
+#endif
+// TODO: webgpu, webgl, metal, directx
+// #ifdef NENGINE_LLRENDERER_WEBGPU
+// #include "WebGPULLRenderer.hpp"
+// #endif
 
 namespace NEngine {
-
-class RenderQuery;
-
-enum LLRENDERER_VENDOR {
-	  LLRENDERER_VENDOR_VULKAN
-	, LLRENDERER_VENDOR_WEBGL
-};
-
-/**
- * Has a low level rendering graph and converts it into a vendor specific 
- * GraphicsFrame, along updating and drawing.
- */
-class LLRenderer {
-	protected:
-	LLRENDERER_VENDOR vendor;
-	GraphicsContext * context;
-	LLSceneGraph * scene;
-
-	public:
-	virtual void setSceneGraph();
-	virtual void render(RenderQuery * query = nullptr);
-};
-
-LLRenderer * createLLRenderer(
-		LLRENDERER_VENDOR vendor = LLRENDERER_VENDOR_VULKAN
-);
-
-class VulkanLLRenderer : public LLRenderer{
-	void createGraphicsContext();
-	void createGraphicsPipeline();
-
-	public:
-	VulkanLLRenderer();
-	~VulkanLLRenderer();
-	void setSceneGraph(LLSceneGraph * scene);
-	void checkSceneGraph();
-	void render(RenderQuery * query = nullptr);
-};
-
-
 /**
  * Parses SceneGraph and holds high level rendering configs, algorithms.
  * 
@@ -58,7 +24,7 @@ class VulkanLLRenderer : public LLRenderer{
  * common rendering API (between vendors) and the lowest level rendering 
  * abstraction required to the engine. This could be the lowest level API 
  * with the biggest shared subset of low-level abstractions, thus a vulkan 
- * or similar with shims to some other higher order (but still below RIR)
+ * or similar with shims to some other higher order (but still RIR)
  * algorithms.
  */
 class Renderer {

@@ -2,11 +2,10 @@
 
 namespace NEngine {
 
-
 void VulkanContext::setup() {
 	this->createInstance();
-	this->createLogicalDevice(this->getPhysicalDevice);
-	this->setupSwapchain();
+	// this->createLogicalDevice(this->getPhysicalDevice);
+	// this->setupSwapchain();
 }
 
 void VulkanContext::present() {

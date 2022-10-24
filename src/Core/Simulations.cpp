@@ -1,7 +1,8 @@
 #include "Simulations.hpp"
 #include "Universes.hpp"
 
-Simulation * NEngine::generic() {
+namespace NEngine {
+Simulation * generic() {
 	Simulation * simulation = new Simulation();
 
 	// create view frame
@@ -11,4 +12,4 @@ Simulation * NEngine::generic() {
 	// simulation->space_trees = {Universes::genesis()};
 	return simulation;
 }
-
+}

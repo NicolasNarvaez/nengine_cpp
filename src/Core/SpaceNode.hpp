@@ -1,21 +1,14 @@
 #pragma once
-
 #include <vector>
 #include "NObject.hpp"
 #include "SpaceTree.hpp"
 #include "Visor.hpp"
+#include "RenderQuery.hpp"
 
 namespace NEngine {
 
-class VisorContext {
-};
-
-class RenderQuery {
-	public:
-	// just intersected objects by now
-	std::vector<NObject*>* objects;
-	NCamera * camera;
-};
+// class VisorContext {
+// };
 
 class SpaceNode {
 	// computing context buffers
@@ -23,9 +16,10 @@ class SpaceNode {
 	SpaceTree * tree;
 	std::vector<NObject*> * objects;
 	SpaceNode * parent;
-	SpaceNode * sibblings;
+	std::vector<SpaceNode*>* sibblings;
 	std::vector<SpaceNode*>* childs;
-	RenderQuery * queryRender(Visor * visor, VisorContext * context = 0, bool generate_context = false);
+	// Constructs rendering query from visor definition/spatial graphic features
+	RenderQuery * queryRender(Visor * visor, void * context = 0, bool generate_context = false);
 	std::vector<NObject*> * allObjects();
 };
 

@@ -3,11 +3,19 @@
 #include "Visor.hpp"
 #include "SimulationFrame.hpp"
 
-class VisorFrame {
-	std::vector<Visor*> visors;
+// Frames are execution threads in the space tree processing
+namespace NEngine {
+
+class VisorFrame : SimulationFrame {
+	public:
+	std::vector<NEngine::Visor*> visors;
 	void renderAll() {
 		/// call render on every visor
+		for(auto visor : visors) {
+			visor->render();
+		}
 	}
-
-	static void step(VisorFrame * visor_frame, SimulationFrame * frame);
+	void step(int milliseconds);
 };
+
+}

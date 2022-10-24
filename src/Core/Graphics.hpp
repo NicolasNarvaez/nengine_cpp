@@ -35,6 +35,4 @@ class VulkanContext : public GraphicsContext {
 	// void createLogicalDevice();
 };
 
-
-
 }
