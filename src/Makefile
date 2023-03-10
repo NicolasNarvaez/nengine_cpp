@@ -1,5 +1,6 @@
-DEFFLAGS = -D NENGINE_LLRENDERER_VENDOR_VULKAN
-CFLAGS = -std=c++17 -O2
+DFLAGS = -D NENGINE_LLRENDERER_VENDOR_VULKAN
+CFLAGS = -std=c++17 -O0 -g 
+CFLAGSO3 = -std=c++17 -O3 -D NDEBUG
 LDFLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 
 main_test: main.cpp

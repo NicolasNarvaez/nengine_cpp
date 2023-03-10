@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/boulder/work/nengine/src/main.cpp",
+  "file": "/home/boulder/work/nengine/src/main.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_BaseFrames.dir/src/Core/BaseFrames.cpp.o -c /home/boulder/work/nengine/src/Core/BaseFrames.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/BaseFrames.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_Graphics.dir/src/Core/Graphics.cpp.o -c /home/boulder/work/nengine/src/Core/Graphics.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/Graphics.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_LLRenderer.dir/src/Core/LLRenderer.cpp.o -c /home/boulder/work/nengine/src/Core/LLRenderer.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/LLRenderer.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_NAlgebra.dir/src/Core/NAlgebra.cpp.o -c /home/boulder/work/nengine/src/Core/NAlgebra.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/NAlgebra.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_NObject.dir/src/Core/NObject.cpp.o -c /home/boulder/work/nengine/src/Core/NObject.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/NObject.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_Renderer.dir/src/Core/Renderer.cpp.o -c /home/boulder/work/nengine/src/Core/Renderer.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/Renderer.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_Simulation.dir/src/Core/Simulation.cpp.o -c /home/boulder/work/nengine/src/Core/Simulation.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/Simulation.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_SimulationFrame.dir/src/Core/SimulationFrame.cpp.o -c /home/boulder/work/nengine/src/Core/SimulationFrame.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/SimulationFrame.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_Simulations.dir/src/Core/Simulations.cpp.o -c /home/boulder/work/nengine/src/Core/Simulations.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/Simulations.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_SpaceNode.dir/src/Core/SpaceNode.cpp.o -c /home/boulder/work/nengine/src/Core/SpaceNode.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/SpaceNode.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_SpaceTree.dir/src/Core/SpaceTree.cpp.o -c /home/boulder/work/nengine/src/Core/SpaceTree.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/SpaceTree.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_Universes.dir/src/Core/Universes.cpp.o -c /home/boulder/work/nengine/src/Core/Universes.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/Universes.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_Visor.dir/src/Core/Visor.cpp.o -c /home/boulder/work/nengine/src/Core/Visor.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/Visor.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_VulkanAPI.dir/src/Core/VulkanAPI.cpp.o -c /home/boulder/work/nengine/src/Core/VulkanAPI.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/VulkanAPI.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_VulkanLLRenderer.dir/src/Core/VulkanLLRenderer.cpp.o -c /home/boulder/work/nengine/src/Core/VulkanLLRenderer.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/VulkanLLRenderer.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/graphics_vulkan_ComputeDevice.dir/src/Core/graphics/vulkan/ComputeDevice.cpp.o -c /home/boulder/work/nengine/src/Core/graphics/vulkan/ComputeDevice.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/graphics/vulkan/ComputeDevice.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/graphics_vulkan_resources.dir/src/Core/graphics/vulkan/resources.cpp.o -c /home/boulder/work/nengine/src/Core/graphics/vulkan/resources.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/graphics/vulkan/resources.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/graphics_vulkan_util.dir/src/Core/graphics/vulkan/util.cpp.o -c /home/boulder/work/nengine/src/Core/graphics/vulkan/util.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/graphics/vulkan/util.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/os_fs.dir/src/Core/os/fs.cpp.o -c /home/boulder/work/nengine/src/Core/os/fs.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/os/fs.cpp"
+},
+{
+  "directory": "/home/boulder/work/nengine/build",
+  "command": "/usr/bin/c++ -DNENGINE_LLRENDERER_VENDOR_VULKAN -O0 -g -D DEBUG -std=gnu++20 -o CMakeFiles/_home_boulder_work_nengine_src_Core_util.dir/src/Core/util.cpp.o -c /home/boulder/work/nengine/src/Core/util.cpp",
+  "file": "/home/boulder/work/nengine/src/Core/util.cpp"
+}
+]

@@ -2,7 +2,7 @@
 #include "SpaceTree.hpp"
 
 namespace NEngine {
-// Meant to be modular, nest-able, remembar why :) 
+// NObject subtype
 namespace Universes {
 	SpaceTree * genesis();
 }

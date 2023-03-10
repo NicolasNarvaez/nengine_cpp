@@ -1,5 +1,5 @@
-#include "Visor.hpp"
 #include "SpaceNode.hpp"
+#include "Visor.hpp"
 
 namespace NEngine {
 void Visor::render() {

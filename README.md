@@ -21,8 +21,12 @@ wasm first and rtx first (the closest way always)
 ND first (optimizations could reach the hot-reload, its ok), including shadding
 
 There will be no more "tasks" or "issues" whatsoever, until the primary work is 
-done.
+done. But the immediate desired requirement affter it is integrating curve and 
+non-continous space types (the so desired "SpaceGraph").
 
 (I recognize there is much to learn, for the rest of life, so please bear with 
 my ignorance.)
 
+EXTRA: after the bare minimum of the primary task, im switching to rust.
+C++ 
+NOTES: c++ modules lack support

@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NEngine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_BaseFrames::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_BaseFrames-Debug-bb6d72cf8a1b5ee93532.json",
+					"name" : "_home_boulder_work_nengine_src_Core_BaseFrames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_Graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_Graphics-Debug-76e7e0a754eee11cc909.json",
+					"name" : "_home_boulder_work_nengine_src_Core_Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_LLRenderer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_LLRenderer-Debug-90bafa074ea744fa308a.json",
+					"name" : "_home_boulder_work_nengine_src_Core_LLRenderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_NAlgebra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_NAlgebra-Debug-a73ccbf417fc71a8e498.json",
+					"name" : "_home_boulder_work_nengine_src_Core_NAlgebra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_NObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_NObject-Debug-c5a9561a1c89cb85410f.json",
+					"name" : "_home_boulder_work_nengine_src_Core_NObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_Renderer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_Renderer-Debug-1442629463b3e75e4d8e.json",
+					"name" : "_home_boulder_work_nengine_src_Core_Renderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_Simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_Simulation-Debug-16acbcfa18d88ab4f14a.json",
+					"name" : "_home_boulder_work_nengine_src_Core_Simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_SimulationFrame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_SimulationFrame-Debug-e9e7fc0caccb9c8050fb.json",
+					"name" : "_home_boulder_work_nengine_src_Core_SimulationFrame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_Simulations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_Simulations-Debug-474a0c6f20cc47e852f5.json",
+					"name" : "_home_boulder_work_nengine_src_Core_Simulations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_SpaceNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_SpaceNode-Debug-1e89cedb8e72f79066eb.json",
+					"name" : "_home_boulder_work_nengine_src_Core_SpaceNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_SpaceTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_SpaceTree-Debug-c67951330360b6b6cb87.json",
+					"name" : "_home_boulder_work_nengine_src_Core_SpaceTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_Universes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_Universes-Debug-160e7ddfbb3a9bb28b4f.json",
+					"name" : "_home_boulder_work_nengine_src_Core_Universes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_Visor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_Visor-Debug-16bfab94cbd5342eb05b.json",
+					"name" : "_home_boulder_work_nengine_src_Core_Visor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_VulkanAPI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_VulkanAPI-Debug-17025801311f7744ddf4.json",
+					"name" : "_home_boulder_work_nengine_src_Core_VulkanAPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_VulkanLLRenderer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_VulkanLLRenderer-Debug-e41cbc55cca0829a9475.json",
+					"name" : "_home_boulder_work_nengine_src_Core_VulkanLLRenderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_home_boulder_work_nengine_src_Core_util::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_home_boulder_work_nengine_src_Core_util-Debug-c214b491f91077ef822d.json",
+					"name" : "_home_boulder_work_nengine_src_Core_util",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphics_vulkan_ComputeDevice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphics_vulkan_ComputeDevice-Debug-c7ad634da18f617b8f63.json",
+					"name" : "graphics_vulkan_ComputeDevice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphics_vulkan_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphics_vulkan_resources-Debug-600e65db0b2cfeb73f64.json",
+					"name" : "graphics_vulkan_resources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphics_vulkan_util::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphics_vulkan_util-Debug-99d4367a8e3ae2e0f9b5.json",
+					"name" : "graphics_vulkan_util",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-82a7240cde4726b7003e.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "os_fs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-os_fs-Debug-fe34c1048009c4a74100.json",
+					"name" : "os_fs",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/boulder/work/nengine/build",
+		"source" : "/home/boulder/work/nengine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,13 +1,15 @@
 #include "VulkanLLRenderer.hpp"
-#include <iostream>
 
 namespace NEngine {
+#if 0
+#include <iostream>
+
 
 VulkanLLRenderer::VulkanLLRenderer() {
 	this->vendor = LLRENDERER_VENDOR_VULKAN;
 }
 VulkanLLRenderer::~VulkanLLRenderer() { 
-	if(this->context != nullptr) delete this->context;
+	// if(this->context != nullptr) delete this->context;
 }
 
 /**
@@ -16,15 +18,19 @@ VulkanLLRenderer::~VulkanLLRenderer() {
  *					window surface, swapchain props
  */
 void VulkanLLRenderer::setSceneGraph(LLSceneGraph * scene) {
-	this->scene = scene;
-	this->context = new VulkanContext();
-	this->createGraphicsPipeline();
-	std::cout << "LOL" << std::endl;
+	// this->scene = scene;
+	// this->context = new VulkanContext();
+	// this->createGraphicsPipeline();
+	// std::cout << "LOL" << std::endl;
 }
 
 // currently changes on scenegraph should trigger graphics pipeline recreation
 // TODO:: validate graphics pipeline recreation subsets, cases
 void VulkanLLRenderer::checkSceneGraph() {
+}
+
+
+void VulkanLLRenderer::createGraphicsContext() { 
 }
 
 /**
@@ -37,4 +43,5 @@ void VulkanLLRenderer::render(RenderQuery * query) {
 
 }
 
+#endif
 }

@@ -10,6 +10,8 @@
 // #include "WebGPULLRenderer.hpp"
 // #endif
 
+#include "graphics/RenderScene.hpp"
+
 namespace NEngine {
 /**
  * Parses SceneGraph and holds high level rendering configs, algorithms.
@@ -32,8 +34,9 @@ class Renderer {
 
 	public:
 	// sets ll_renderer to ll_renderer_
-	void constructor (LLRenderer * ll_renderer_);
+	Renderer (LLRenderer * ll_renderer_ = createLLRenderer());
 	void render(RenderQuery * query = nullptr);
+	void run(RenderScene * render_scene);
 };
 
 }

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+out_path=out/test/current/main
+
+start_time=$(date +%s%N | cut -b1-13)
+cd build
+cmake --build . -- -d stats
+# cmake --build .
+# ninja --quiet
+cd ..
+
+rm $out_path
+cp build/main $out_path
+end_time=$(date +%s%N | cut -b1-13)
+
+time_seconds=$(bc <<< 'scale=3; ('$end_time'-'$start_time')/1000')
+
+echo incremental build time_seconds = $time_seconds

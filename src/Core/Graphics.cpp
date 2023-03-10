@@ -8,7 +8,7 @@ void VulkanContext::setup() {
 	// this->setupSwapchain();
 }
 
-void VulkanContext::present() {
-}
+// void VulkanContext::present() { }
+void VulkanContext::createInstance() { }
 
 }

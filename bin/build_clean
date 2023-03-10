@@ -1,0 +1,14 @@
+#!/bin/bash
+rm -R ./build/*
+
+# CMAKE_GENERATOR=Ninja
+export CC=/usr/bin/clang
+export CMAKE_BUILD_TYPE=Debug
+# export VERBOSE=ON
+# export CMAKE_VERBOSE_MAKEFILE=ON
+# export CMAKE_BUILD_TYPE=Release
+cmake -GNinja -B build .
+# cmake -B build .
+
+./bin/build
+

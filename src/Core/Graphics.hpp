@@ -17,8 +17,9 @@ class GraphicsContext {
 	void * context_instance;
 	GraphicsCanvas * canvas;
 
-	virtual void setup();
-	virtual void present();
+	public:
+	virtual void setup() = 0;
+	virtual void present() = 0;
 };
 
 class VulkanCanvas {
@@ -28,7 +29,7 @@ class VulkanCanvas {
 class VulkanContext : public GraphicsContext {
 	public: 
 	void setup();
-	void present();
+	// void present();
 
 	private:
 	void createInstance();
