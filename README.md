@@ -4,6 +4,8 @@ This is an experiment to evaluate tech stacks for a modern "NEngine", specifical
 interactive simulation engine specialized in hyperspace generalization (for now, then comes non-euclidianess and, 
 the special sauces ^_^).
 
+(Initial NEngine Project)[https://github.com/NicolasNarvaez/NEngine.js]
+
 ### Results
 
 The conclusion was that c++ although a great language, and the current industry standard for interactive simulations, 
