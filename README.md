@@ -1,8 +1,10 @@
-## WORK IN PROGRESS
+### Motivation
 
 This is an experiment to evaluate tech stacks for a modern "NEngine", specifically as a c++ project. NEngine is an 
 interactive simulation engine specialized in hyperspace generalization (for now, then comes non-euclidianess and, 
 the special sauces ^_^).
+
+### Results
 
 The conclusion was that c++ although a great language, and the current industry standard for interactive simulations, 
 it is definetily on the dust now in a wide range of features, and its cleary being replaced by rust and zig in the 
@@ -20,9 +22,15 @@ will be happily rewriten on it, and its part of this codebase ethos. For now, ru
 can be included where it shows (if appropiately needed), and who knows, its should not be that difficult to 
 add comptime to rust (sigh).
 
-### This is part of the old README
+### Current work
 
-Im rewritting an old n-d web engine into modern soil (?) c++, just for the sake 
+This repo will be updated anytime I find utility on implementing an algorithm in c++ to benchmark them against rust 
+and zig versions. It already counts with a very raw vulkan renderer and basic abstractions for n-d geometric 
+algorithms, like tensors.
+
+## Initial objectives (old readme extract)
+
+Im rewritting an old n-d web interactive simulation engine into modern soil (?) c++, just for the sake 
 of it (?).
 
 The "primary task":
@@ -31,5 +39,5 @@ graphics: correct n-d rendering (volumetric rendering && superposition), vol-RTX
 physics: base solids, constraints
 
 EXTRA: after the bare minimum of the primary task, im switching to rust.
-C++ 
+
 NOTES: c++ modules lack support
